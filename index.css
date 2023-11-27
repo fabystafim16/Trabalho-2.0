@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+    
+    body {
+      background-color: #9998b9;
+      padding: 20px;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    header{
+      position: relative;
+      background-color: #aaa9ce;
+      font-size: 5vh;
+      justify-content: center;
+      display: flex;
+      border-radius: 20px;
+    }
+  
+    /* Add padding BETWEEN each column (if you want) */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      position: relative;
+      float: left;
+      width: 30%;
+      display: none;
+      left: 5%; /* Hide columns by default */
+    }
+    
+    /* Clear floats after rows */
+   
+    
+    /* Content */
+    .content {
+      background-color: #aaa9ce;
+      padding: 10px;
+
+    }
+    
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color:  #767591;
+      cursor: pointer;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .btn:hover {
+      background-color:  #aaa9ce;
+    }
+    
+    .btn.active {
+      background-color: #666;
+       color: white;
+    }
+  
+    button
+  
+Desenvolvimento de Sistema
+Conheça o curso de desenvolvimento de sistema
+￼Tudo ￼Banco de dados ￼Front end ￼Programação mobile ￼Ciência da computação
+
+    .content {
+  
+      width: 100%;
+      height: 30vh;
+    }
+    img{
+      height: 30vh;
+    }
